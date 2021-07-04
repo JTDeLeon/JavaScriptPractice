@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+body div {
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    width: 130px;
+    height: 50px;
+    font-weight: 600;
+    font-size: large;
+}
+
+button[name='decrease']{
+    background: #d82336;
+}
+button[name='increase']{
+    background: #48a868;
+}
