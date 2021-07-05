@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* @media screen and (max-width: 600px) { */
+    body {
+      background-color: olive;
+      width: 100%;
+      font-family: Roboto;
+    }
+  /* } */
+
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main div {
+      margin: auto;
+      text-align: center;
+  }
+
+  .review-container {
+      width: 80%;
+      background: white;
+      padding: 30px;
+      border: solid 1px black;
+      border-radius: 10px;
+      max-width: 500px;
+  }
+
+  .img-container img{
+      max-width: 200px;
+  }
+
+  .name {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .title {
+      color: #15caca;
+      text-decoration: underline;
+      font-style: italic;
+  }
+
+  .nav-buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav {
+    width: 50px;
+    font-weight: 600;
+    color: #15caca;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  button {
+      cursor: pointer;
+  }
