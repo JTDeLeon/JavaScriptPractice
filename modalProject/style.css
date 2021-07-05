@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main {
+    background-image: url("backgroundWall.jpg");
+    background-position: center top;
+    margin: 0;
+    height: 100%;
+    display: flex;
+}
+
+.box {
+    margin: auto;
+    background: white;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px #808080a3;
+}
+
+.box h1, .box button{
+    margin: auto;
+} 
+
+button {
+    cursor: pointer;
+}
+
+.modal {
+    background: red;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+
+.hideModal {
+    display: none;
+}
+
+footer {
+    text-align: center;
+}
